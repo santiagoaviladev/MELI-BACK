@@ -1,0 +1,175 @@
+.product-list-container
+{
+    width: 71%;
+    background-color: white;
+    margin-left: 12%;
+}
+
+.product-preview
+{
+    padding:16px;
+    border-bottom:1px solid #eeeeee;
+    margin:1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-picture img
+{
+    width:180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.product-prw-details
+{
+    margin-left: 16px;
+    margin-top:16px;
+    width:50%
+}
+.product-prew-price
+{
+    font-size: 24px;
+}
+.product-prew-title
+{
+    margin-top:32px;
+    font-size: 18px;
+    font-size: bold;
+
+}
+.product-prew-title
+{
+    margin-top:32px;
+    font-size: 18px;
+    
+}
+
+.product-city
+{
+    font-size: 12px;
+    text-align: right;
+    width:20%;
+    margin-top:32px;
+   
+}
+
+.product-link
+{
+    color:black;
+    text-decoration:none;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image-col
+{
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+    padding-top:32px;
+}
+.image-col img
+{
+    width:680px;
+}
+
+.details-col
+{
+    padding-top:32px;
+    padding-right: 32px;
+}
+
+.features
+{
+    font-size:14px;
+  
+}
+
+.details-title 
+{
+    
+    margin-top:16px;
+   
+    width:80%;
+}
+h1.h1-details
+{
+    font-size:24px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.details-price
+{
+    margin-top:32px;
+    font-size:46px;
+}
+
+.details-buy
+{
+    margin-top:32px;
+}
+
+.details-buy button{
+    background-color: #3483FA;
+    border:0;
+    width:95%;
+    height: 30px;
+    border-radius: 4px;
+    color:white;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.description-row
+{
+    margin-top:50px;
+    padding:5%;
+    padding-top:0;
+    width: 70%;
+}
+
+h2.desct
+{
+    font-size:28px
+}
+
+.description-details
+{
+    margin-top:32px;
+    font-size:16px;
+    text-align: justify;
+}
+.details-decimals::before{
+    content: ".";
+}
+.details-decimals
+{
+    font-size:23px;
+    position:relative;
+    top:-16px;
+    display: inline-block;
+    
+}
+
+
+.breadcrumb
+{
+    width: 71%;
+    margin-left: 12%;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+
+.breadcrumb, .breadcrumb-link
+{
+    color:#999999;
+    font-size: 14px;
+    text-decoration: none;
+}
